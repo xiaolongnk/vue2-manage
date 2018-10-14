@@ -48,19 +48,18 @@
 </template>
 
 <script>
-    export default {
-		computed: {
-			defaultActive: function(){
-				return this.$route.path.replace('/', '');
-			}
-		},
+export default {
+  computed: {
+    defaultActive: function() {
+      return this.$route.path.replace("/", "");
     }
+  }
+};
 </script>
 
 
 <style lang="less" scoped>
-	@import '../style/mixin';
-	.manage_page{
-		
-	}
+@import "../style/mixin";
+.manage_page {
+}
 </style>
