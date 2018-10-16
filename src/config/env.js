@@ -6,16 +6,16 @@
  * baseImgPath: 图片存放地址
  *
  */
-let baseUrl = '';
+let baseUrl = 'http://tao.cc';
 let routerMode = 'hash';
 let baseImgPath;
 
 if (process.env.NODE_ENV == 'development') {
-  baseUrl = '';
-  baseImgPath = '/img/';
+  baseUrl = 'http://tao.cc';
+  baseImgPath = 'http://tao.cc';
 } else {
-  baseUrl = '//elm.cangdu.org';
-  baseImgPath = '//elm.cangdu.org/img/';
+  baseUrl = 'https://utils.nofile.cc';
+  baseImgPath = 'https://image.nofile.cc/';
 }
 
 export { baseUrl, routerMode, baseImgPath }

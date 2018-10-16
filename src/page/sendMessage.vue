@@ -1,15 +1,13 @@
 <template>
-    <div class="fillcontain">
-        sendMessage
-    </div>
+<div class="fillcontain">
+  sendMessage
+</div>
 </template>
 
 <script>
-    export default {
-    	
-    }
+export default {};
 </script>
 
 <style lang="less">
-	@import '../style/mixin';
+@import "../style/mixin";
 </style>
