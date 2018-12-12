@@ -61,6 +61,6 @@ export default {
 @import "../style/mixin";
 
 .manage_page {
-  // background:red;
+  background:lightyellow;
 }
 </style>
